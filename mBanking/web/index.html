@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NX BANQUE</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-hour-leave">
+        <div class="title">
+          <h1><span>MOONV</span> DEVELOPPEMENT</h1>
+        </div>
+        <div class="right-wrapper">
+          <div class="container-hour">
+            <div class="hour">
+              <span>00:00</span>
+            </div>
+          </div>
+          <div class="container-leave">
+            <button>
+              <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      </div>
+      <div class="container-info">
+        <div class="card">
+          <div class="card-title">
+            <span id="card-title">FLEECA BANQUE</span>
+          </div>
+          <div class="card-logo">
+            <i id="card-logo" class="fa-brands fa-nfc-symbol"></i>
+          </div>
+          <div class="card-number">
+            <span id="card-number">1234 5678 **** 3456</span>
+          </div>
+          <div class="name-date">
+            <div class="card-name">
+              <span id="card-name">John Doe</span>
+            </div>
+            <div class="card-date">
+              <span id="card-date">02/32</span>
+            </div>
+          </div>
+        </div>
+        <div class="separation"></div>
+        <div class="info">
+          <div>
+            <i class="fa-solid fa-wallet"></i>
+            <div>
+              <span id="info-wallet">Portefeuille</span>
+              <span id="info-wallet-value">0000 $</span>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-receipt"></i>
+            <div>
+              <span id="info-receipt"
+                >Retraits <span style="color: #f30000">Janvier</span></span
+              >
+              <span id="info-receipt-value">0000 $</span>
+            </div>
+          </div>
+          <div>
+            <i class="fa-solid fa-coins"></i>
+            <div>
+              <span id="info-coins"
+                >Dépôts <span style="color: #f30000">Janvier</span></span
+              >
+              <span id="info-coins-value">0000 $</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-description">
+        <div class="description">
+          <div class="circle">
+            <h2 class="description-title">
+              Un service bancaire fiable et accessible
+            </h2>
+          </div>
+          <div class="description-text">
+            <p>
+              Notre banque met un point d'honneur à vous offrir une expérience
+              fluide et sécurisée. Que ce soit pour stocker votre argent en
+              toute sûreté ou effectuer des paiements rapides et efficaces,
+              notre infrastructure garantit un accès continu et sans
+              interruption à vos fonds. Votre confiance est notre engagement, et
+              nous mettons tout en œuvre pour assurer la protection et la
+              fiabilité de vos opérations financières.
+            </p>
+          </div>
+        </div>
+        <div class="description2">
+          <div class="circle">
+            <h2 class="description-title">
+              Sécurité et confidentialité des transactions
+            </h2>
+          </div>
+          <div class="description-text">
+            <p>
+              Notre système bancaire utilise des protocoles de sécurité avancés
+              pour protéger vos fonds et garantir la confidentialité de vos
+              transactions. Chaque mouvement est enregistré et surveillé afin de
+              prévenir toute activité suspecte. Pensez à vérifier régulièrement
+              votre relevé bancaire pour vous assurer qu’aucune opération non
+              autorisée n’a été effectuée sur votre compte.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-action">
+        <div class="deposit">
+          <div class="container-deposit">
+            <div class="deposit-title">Dépôts</div>
+            <div class="deposit-description">
+              Saisissez le montant à déposer et confirmez pour sécuriser vos
+              fonds.
+            </div>
+            <div class="deposit-input">
+              <input type="number" placeholder="Montant" />
+              <button>Déposer</button>
+            </div>
+          </div>
+        </div>
+        <div class="withdraw">
+          <div class="container-withdraw">
+            <div class="withdraw-title">Retraits</div>
+            <div class="withdraw-description">
+              Saisissez le montant à retirer et confirmez pour récupérer vos
+              fonds.
+            </div>
+            <div class="withdraw-input">
+              <input type="number" placeholder="Montant" />
+              <button>Retirer</button>
+            </div>
+          </div>
+        </div>
+        <div class="transfer">
+          <div class="container-transfer">
+            <div class="transfer-title">Transferts</div>
+            <div class="transfer-description">
+              Entrez le montant et l'ID du destinataire pour effectuer le
+              transfert.
+            </div>
+            <div class="transfer-input">
+              <div class="input-transfer">
+                <input
+                  class="input-transfer-amount"
+                  type="number"
+                  placeholder="Montant"
+                />
+                <input class="input-transfer-id" type="text" placeholder="ID" />
+              </div>
+              <button>Transférer</button>
+            </div>
+          </div>
+        </div>
+        <div class="weekly-bonus">
+          <div class="weakly-bonus-img">
+            <img src="img/gift.png" alt="weekly-bonus" />
+          </div>
+          <div class="container-weekly-bonus">
+            <div class="weekly-bonus-title">Bonus Hebdomadaire</div>
+            <div class="weekly-bonus-description">
+              Connectez-vous chaque semaine pour réclamer vos bonus !
+            </div>
+            <button>Récupérer</button>
+          </div>
+        </div>
+      </div>
+      <div class="container-history">
+        <div class="history-title">Historique des transactions</div>
+        <div class="history-separation"></div>
+        <div class="bar-scroll"></div>
+        <div class="history">
+          <div class="container-transaction">
+            <div class="type">Dépôt</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Transfert</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+          <div class="container-transaction">
+            <div class="type">Retrait</div>
+            <div class="date">22/03/2025</div>
+            <div class="confirmed">La transaction a été confirmée</div>
+            <div class="amount">0000 $</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
