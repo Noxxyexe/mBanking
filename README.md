@@ -23,7 +23,7 @@
 2. **Ajoute dans ton `server.cfg`**
 
    ```plaintext
-   ensure banque-script
+   ensure mBanking
    ```
 
 3. **Importe la base SQL**  
